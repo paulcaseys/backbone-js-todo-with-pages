@@ -2,7 +2,7 @@
 /**
  * Filename: js/app/views/TodoPageView
  *
- * initialises the views
+ * initialises the view
  * 
  */
 // 

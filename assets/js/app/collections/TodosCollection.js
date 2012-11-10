@@ -2,7 +2,7 @@
 /**
  * Filename: js/app/collections/TodoCollections
  *
- * initialises the views
+ * collection of todo models
  * 
  */
 // 

@@ -1,8 +1,8 @@
 
 /**
- * Filename: js/app/views/ExamplePageView
+ * Filename: js/app/models/StateModel
  *
- * initialises the views
+ * manages the views
  * 
  */
 // 
@@ -25,35 +25,17 @@ define([
     // Our basic **Todo** model has `title`, `order`, and `done` attributes.
     var StateModel = Backbone.Model.extend({
 
-      /*
-      // Default attributes for the todo item.
-      defaults: function() {
-        return {
-          title: "empty todo...",
-          order: TodosCollection.nextOrder(),
-          done: false
-        };
-      },
-
-      // Ensure that each todo created has `title`.
-      initialize: function() {
-        if (!this.get("title")) {
-          this.set({"title": this.defaults().title});
-        }
-      },
-
-      // Toggle the `done` state of this todo item.
-      toggle: function() {
-        this.save({done: !this.get("done")});
-      }
-       */
       
       showView: function(view){
-        
+        // checks if there was a previous view
         if(this.currentView != undefined){
+            // removes the previous view
             this.currentView.transitionOut();
         }
+        // defines the new view
         this.currentView = view;
+
+        // transitions the new view in
         this.currentView.transitionIn();
         
       }

@@ -1,4 +1,11 @@
 
+/**
+ * Filename: js/app/AppConfig
+ *
+ * defines the app paths and initialises the app
+ * 
+ */
+// 
 
 // defines the app structure
 var App = {};

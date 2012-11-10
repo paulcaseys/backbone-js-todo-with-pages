@@ -2,7 +2,7 @@
 /**
  * Filename: js/app/views/ExamplePageView
  *
- * initialises the views
+ * initialises the view
  * 
  */
 // 

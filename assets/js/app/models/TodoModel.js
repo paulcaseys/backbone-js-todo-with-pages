@@ -1,8 +1,8 @@
 
 /**
- * Filename: js/app/views/ExamplePageView
+ * Filename: js/app/models/TodoModel
  *
- * initialises the views
+ * model for the todo list
  * 
  */
 // 
@@ -25,7 +25,6 @@ define([
 // require js: defines the 
 ], function($, _, Backbone, TodosCollection){
 
-    //console.log(TodosCollection);
     // Todo Model
     // ----------
     // Our basic **Todo** model has `title`, `order`, and `done` attributes.
@@ -36,7 +35,7 @@ define([
       defaults: function() {
         return {
           title: "empty todo...",
-          order: 1,//TodosCollection.nextOrder(),
+          order: 1,
           done: false
         };
       },

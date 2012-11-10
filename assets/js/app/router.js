@@ -1,8 +1,8 @@
 
 /**
- * Filename: js/app/AppInit
+ * Filename: js/app/router
  *
- * initialises the views
+ * routes uris and logs a history
  * 
  */
 // 
@@ -34,8 +34,6 @@ define([
         },
 
 
-        // Instantiate the router
-        //App.Router = new AppRouter;
 
         defaultRoute: function(){
             console.log('route: home');

@@ -1,8 +1,8 @@
 
 /**
- * Filename: js/app/views/ExamplePageView
+ * Filename: js/app/models/TestModel
  *
- * initialises the views
+ * dummy model
  * 
  */
 // 
@@ -27,29 +27,6 @@ define([
     // ----------
     // Our basic **Todo** model has `title`, `order`, and `done` attributes.
     var TestModel = Backbone.Model.extend({
-
-      /*
-      // Default attributes for the todo item.
-      defaults: function() {
-        return {
-          title: "empty todo...",
-          order: TodosCollection.nextOrder(),
-          done: false
-        };
-      },
-
-      // Ensure that each todo created has `title`.
-      initialize: function() {
-        if (!this.get("title")) {
-          this.set({"title": this.defaults().title});
-        }
-      },
-
-      // Toggle the `done` state of this todo item.
-      toggle: function() {
-        this.save({done: !this.get("done")});
-      }
-       */
 
     });
      

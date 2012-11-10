@@ -1,8 +1,8 @@
 
 /**
- * Filename: js/app/views/ExamplePageView
+ * Filename: js/app/views/HomePageView
  *
- * initialises the views
+ * initialises the view
  * 
  */
 // 
